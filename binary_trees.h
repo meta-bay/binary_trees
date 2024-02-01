@@ -47,6 +47,7 @@ int binary_tree_balance(const binary_tree_t *tree);
 int is_it_really_perfect(const binary_tree_t *tree, int d, int l);
 int tree_depth(const binary_tree_t *tree);
 int is_it_perfect(const binary_tree_t *tree);
+binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 
 #endif
 
