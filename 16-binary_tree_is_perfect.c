@@ -60,7 +60,7 @@ int is_it_really_perfect(const binary_tree_t *tree, int d, int l)
 		return (d == (l + 1));
 	if (!(tree->left) || !(tree->right))
 		return (0);
-	return (is_it_really_perfect(tree->left, d, l + 1) && 
-			is_it_really_perfect(tree->right, d, l +1));
+	return (is_it_really_perfect(tree->left, d, l + 1) &&
+			is_it_really_perfect(tree->right, d, l + 1));
 }
 
