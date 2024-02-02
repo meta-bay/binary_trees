@@ -7,7 +7,7 @@
  * Return: the ancestor
  */
 
-binary_treet *binary_trees_ancestor(const binary_tree_t *first,
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 		const binary_tree_t *second)
 {
 	binary_tree_t *tmp1 = NULL, *tmp2 = NULL;
